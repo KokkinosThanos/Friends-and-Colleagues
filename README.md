@@ -1,7 +1,7 @@
 # Friends-and-Colleagues
 
-From the client-side that is builded with React there is a double CRUD operation 
-through Graphql with a single Express server, to a Mysql and to Mongo database. 
+The client-side is created with React and there is a double CRUD operation 
+with Graphql through a single Express server, to a Mysql and to Mongo database. 
 
 -----------------------------------
 
