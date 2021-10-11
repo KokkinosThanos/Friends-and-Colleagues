@@ -18,7 +18,7 @@ Client Side
 
 Server Side
 - Express.js
-- Apollo-GrpahQl
+- Apollo-GraphQl
 
 Databases
 
