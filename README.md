@@ -1,7 +1,11 @@
 # Friends-and-Colleagues
 
-The client-side is created with React and there is a double CRUD operation 
+In this application I demonstrate how to CRUD data in two different databases!
+
+So from the client-side (is created with React) there is a double CRUD operation 
 with Graphql through a single Express server, to a Mysql and to Mongo database. 
+
+The "Friends" CRUD goes to MYSQL and the "Colleagues" CRUD to MONGO.
 
 -----------------------------------
 
