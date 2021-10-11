@@ -1,0 +1,7 @@
+.friends-field {
+  width: 700px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

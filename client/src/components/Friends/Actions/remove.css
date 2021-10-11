@@ -1,0 +1,63 @@
+.remove-modal-fiends {
+  width: 400px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(206, 34%, 57%);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid hsl(207, 25%, 21%);
+  border-radius: 5px;
+}
+
+.remove-modal-fiends-text {
+  width: 390px;
+  height: 100px;
+}
+
+.remove-modal-fiends-text p {
+  width: inherit;
+  height: inherit;
+  line-height: 100px;
+  text-align: center;
+  font-family: "Markazi Text", serif;
+  font-size: 20px;
+}
+
+.remove-modal-fiends-options {
+  width: 390px;
+  height: 50px;
+  background-color: hsl(207, 26%, 43%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.remove-modal-fiends-options button {
+  width: 60px;
+  height: 25px;
+  display: block;
+  margin: 0 10px 0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 4px hsla(205, 10%, 67%, 0.6);
+  outline: none !important;
+  background-color: rgb(49, 56, 59);
+  color: #c8d8df;
+  letter-spacing: 1px;
+  font-family: "Markazi Text", serif;
+  font-size: 17px;
+  transition: 0.1s box-shadow, 0.1s background-color;
+}
+
+.remove-modal-fiends-options button:hover {
+  cursor: pointer;
+  background-color: hsla(180, 6%, 10%);
+  box-shadow: 0 0 4px hsla(204, 31%, 79%, 0.6);
+}

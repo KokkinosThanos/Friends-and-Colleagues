@@ -1,0 +1,34 @@
+type Query {
+  colleagues: [Colleague]
+}
+
+type Mutation {
+
+  createColleaugue(
+    firstName: String! 
+    lastName: String! 
+    phone: String!
+    email: String!
+  ): Colleague!
+
+  updateColleague(
+    id: ID!
+    firstName: String!
+    lastName: String!
+    phone: String!
+    email: String!
+  ): Colleague!
+
+  deleteColleague(
+    id:ID!
+  ): Colleague!
+
+}
+
+type Colleague {
+  id: ID
+  firstName: String
+  lastName: String
+  phone: String
+  email: String
+}

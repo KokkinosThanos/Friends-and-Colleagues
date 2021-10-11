@@ -1,0 +1,115 @@
+.edit-modal-friend {
+  width: 355px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 6px solid hsl(207, 25%, 21%);
+  border-radius: 5px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h3-edit-friend {
+  width: 348px;
+  height: 50px;
+  background-color: hsl(207, 26%, 43%);
+  border-bottom: 2px solid hsl(207, 25%, 21%);
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  letter-spacing: 0.5px;
+  font-size: 22px;
+  font-family: "Markazi Text", serif;
+}
+
+.edit-form-friend {
+  width: 348px;
+}
+
+.edit-form-field-friend {
+  width: 348px;
+  height: 80px;
+  background-color: hsl(206, 34%, 57%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-form-field-friend label {
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+  color: black;
+  letter-spacing: 0.25px;
+  font-size: 18px;
+  font-family: "Markazi Text", serif;
+}
+
+.edit-form-field-friend input {
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  outline: none !important;
+  resize: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding-left: 5px;
+  background-color: hsl(207, 24%, 84%);
+  color: black;
+  letter-spacing: 0.25px;
+  font-size: 15px;
+  font-family: "Taviraj", serif;
+}
+
+.edit-friend-error {
+  width: 250px;
+  height: 20px;
+  padding-left: 5px;
+  letter-spacing: 0.25px;
+  font-size: 12px;
+  color: rgb(143, 62, 62);
+  font-family: "Taviraj", serif;
+}
+
+.edit-friend-submit-options {
+  width: 348px;
+  height: 40px;
+  background-color: hsl(207, 26%, 43%);
+  bottom: 0 !important;
+  border-top: 2px solid hsl(207, 25%, 21%);
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-friend-submit-options button {
+  width: 90px;
+  height: 25px;
+  display: block;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 4px hsla(205, 10%, 67%, 0.6);
+  outline: none !important;
+  background-color: rgb(49, 56, 59);
+  color: #d1e0ce;
+  font-family: "Markazi Text", serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  transition: 0.25s box-shadow, 1s background-color;
+}
+
+.edit-friend-submit-options button:hover {
+  cursor: pointer;
+  background-color: hsla(180, 6%, 10%);
+  box-shadow: 0 0 4px hsla(204, 31%, 79%, 0.6);
+}

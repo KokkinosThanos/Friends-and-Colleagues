@@ -1,0 +1,33 @@
+type Query {
+  friends: [Friend]
+}
+
+type Mutation {
+
+  addFriend(
+    firstname: String!
+    lastname: String!
+    phone: String!
+    age: Float!
+  ): Friend!
+
+  updateFriend(
+    id: ID!
+    firstname: String!
+    lastname: String!
+    phone: String!
+    age: Float!
+  ): Friend!
+
+  deleteFriend(
+    id: ID!
+  ): Friend!
+}
+
+type Friend {
+  id: ID
+  firstname: String
+  lastname: String
+  phone: String
+  age: Float
+}

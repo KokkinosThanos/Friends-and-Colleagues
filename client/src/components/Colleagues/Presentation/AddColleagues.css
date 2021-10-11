@@ -1,0 +1,111 @@
+.colleagues-h2 {
+  color: black;
+  letter-spacing: 1px;
+  background-color: #49795b;
+  border: 1px solid hsl(143, 19%, 18%);
+}
+
+.colleagues-form {
+  width: 100%;
+  height: 220px;
+  background-color: hsl(143, 26%, 52%);
+  margin: auto;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid hsl(143, 19%, 18%);
+  border-top: none;
+}
+
+.colleagues-form-field {
+  width: 280px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.colleagues-form-field label {
+  display: inline-block;
+  width: 240px;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 5px;
+  color: black;
+  font-family: "Markazi Text", serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.colleagues-form-field input {
+  width: 240px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  resize: none;
+  outline: none !important;
+  padding-left: 10px;
+  background-color: hsl(143, 27%, 74%);
+  color: black;
+  font-family: "Taviraj", serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+
+  transition: 0.3s box-shadow;
+}
+
+.colleagues-form-field .input-invalid {
+  background-color: rgb(212, 187, 187);
+  border: 1px solid rgb(109, 99, 99);
+  box-shadow: none;
+}
+
+.colleagues-form-field input:hover {
+  box-shadow: 0 0 4px hsl(143, 19%, 81%);
+}
+
+.colleagues-form-field input:focus {
+  background-color: hsl(140, 20%, 88%);
+  box-shadow: 0 0 4px hsla(204, 31%, 79%, 0.6);
+  border: 1px transparent;
+}
+
+.colleague-error {
+  width: 240px;
+  height: 20px;
+  font-size: 12px;
+  color: rgb(94, 68, 68);
+  font-family: "Taviraj", serif;
+}
+
+.colleague-submit {
+  display: block;
+  height: 20px;
+  width: 120px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 4px hsla(110, 24%, 75%, 0.4);
+  outline: none !important;
+  background-color: hsl(109, 16%, 21%);
+  color: #c8d8df;
+  font-family: "Markazi Text", serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  transition: 0.25s box-shadow, 1s background-color;
+}
+
+.colleague-submit:hover {
+  cursor: pointer;
+  background-color: hsl(113, 15%, 12%);
+  box-shadow: 0 0 4px hsla(113, 9%, 65%, 0.4);
+}
+
+.colleague-submit:disabled,
+.colleague-submit:disabled:hover,
+.colleague-submit:disabled:active {
+  background-color: #ccc;
+  color: rgb(122, 122, 122);
+  cursor: not-allowed;
+}

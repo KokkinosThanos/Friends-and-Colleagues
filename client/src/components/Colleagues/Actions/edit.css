@@ -1,0 +1,115 @@
+.edit-modal-colleague {
+  width: 355px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 6px solid hsl(143, 19%, 18%);
+  border-radius: 5px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h3-edit-colleague {
+  width: 348px;
+  height: 50px;
+  background-color: hsl(143, 25%, 38%);
+  border-bottom: 2px solid hsl(143, 19%, 18%);
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  letter-spacing: 0.5px;
+  font-size: 22px;
+  font-family: "Markazi Text", serif;
+}
+
+.edit-form-colleague {
+  width: 348px;
+}
+
+.edit-form-field-colleague {
+  width: 348px;
+  height: 80px;
+  background-color: hsl(143, 26%, 52%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-form-field-colleague label {
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+  color: black;
+  letter-spacing: 0.25px;
+  font-size: 18px;
+  font-family: "Markazi Text", serif;
+}
+
+.edit-form-field-colleague input {
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  outline: none !important;
+  resize: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding-left: 5px;
+  background-color: hsl(217, 21%, 88%);
+  color: black;
+  letter-spacing: 0.25px;
+  font-size: 15px;
+  font-family: "Taviraj", serif;
+}
+
+.edit-colleague-error {
+  width: 250px;
+  height: 20px;
+  padding-left: 5px;
+  letter-spacing: 0.25px;
+  font-size: 12px;
+  color: rgb(143, 62, 62);
+  font-family: "Taviraj", serif;
+}
+
+.edit-colleague-submit-options {
+  width: 348px;
+  height: 40px;
+  background-color: hsl(143, 25%, 38%);
+  bottom: 0 !important;
+  border-top: 2px solid hsl(143, 19%, 18%);
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-colleague-submit-options button {
+  display: block;
+  width: 90px;
+  height: 25px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 4px hsla(110, 24%, 75%, 0.4);
+  outline: none !important;
+  background-color: hsl(109, 16%, 21%);
+  color: #c8d8df;
+  font-family: "Markazi Text", serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  transition: 0.25s box-shadow, 1s background-color;
+}
+
+.edit-colleague-submit-options button:hover {
+  cursor: pointer;
+  background-color: hsl(113, 15%, 12%);
+  box-shadow: 0 0 4px hsla(113, 9%, 65%, 0.4);
+}

@@ -1,0 +1,111 @@
+.friends-h2 {
+  color: black;
+  letter-spacing: 1px;
+  background-color: #51718a;
+  border: 1px solid hsl(207, 25%, 21%);
+}
+
+.friends-form {
+  width: 100%;
+  height: 220px;
+  background-color: hsl(206, 34%, 57%);
+  position: relative;
+  margin: auto;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid hsl(207, 25%, 21%);
+  border-top: none;
+}
+
+.friends-form-field {
+  height: 80px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.friends-form-field label {
+  display: inline-block;
+  width: 240px;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 5px;
+  color: black;
+  font-family: "Markazi Text", serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.friends-form-field input {
+  width: 240px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  resize: none;
+  outline: none !important;
+  padding-left: 10px;
+  background-color: hsl(206, 32%, 70%);
+  color: black;
+  font-family: "Taviraj", serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  transition: 0.3s box-shadow;
+}
+
+.friends-form-field .input-invalid {
+  background-color: rgb(212, 187, 187);
+  border: 1px solid rgb(109, 99, 99);
+  box-shadow: none;
+}
+
+.friends-form-field input:hover {
+  box-shadow: 0 0 4px hsl(206, 19%, 74%);
+}
+
+.friends-form-field input:focus {
+  background-color: hsl(207, 24%, 84%);
+  box-shadow: 0 0 4px hsl(208, 6%, 46%);
+  border: 1px transparent;
+}
+
+.friend-error {
+  width: 240px;
+  height: 20px;
+  font-size: 12px;
+  color: rgb(97, 67, 67);
+  font-family: "Taviraj", serif;
+}
+
+.friend-submit {
+  display: block;
+  height: 20px;
+  width: 120px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 4px hsla(205, 10%, 67%, 0.6);
+  outline: none !important;
+  background-color: rgb(49, 56, 59);
+  color: #d1e0ce;
+  font-family: "Markazi Text", serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  transition: 0.25s box-shadow, 1s background-color;
+}
+
+.friend-submit:hover {
+  cursor: pointer;
+  background-color: hsla(180, 6%, 10%);
+  box-shadow: 0 0 4px hsla(204, 31%, 79%, 0.6);
+}
+
+.friend-submit:disabled,
+.friend-submit:disabled:hover,
+.friend-submit:disabled:active {
+  background-color: #ccc;
+  color: rgb(122, 122, 122);
+  cursor: not-allowed;
+}
